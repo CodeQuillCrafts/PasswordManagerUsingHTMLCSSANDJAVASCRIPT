@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    overflow: hidden;
+    user-select: none;
+}
+
+body {
+    height: 100vh;
+    background-color: rgba(197, 210, 107, 1);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+nav ul {
+    background-color: #927397;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav li {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.adder,
+.viewer {
+    background-color: #1b839a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    height: 60vh;
+    min-width: 300px;
+}
+
+.adder input {
+    width: 90%;
+    padding: 10px;
+    color: #294c97;
+    font-size: 1.2rem;
+    caret-color: #fff;
+}
+
+.adder input::placeholder {
+    color: #072080;
+}
+
+.adder input:is(:last-child) {
+    border-radius: 20px;
+    color: #978073;
+    border-color: #978073;
+}
+
+.adder input:not(:last-child) {
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #fff;
+}

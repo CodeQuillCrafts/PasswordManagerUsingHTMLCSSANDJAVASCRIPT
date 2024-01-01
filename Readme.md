@@ -1,5 +1,6 @@
 # Password Manager
 - This is a basic password manager that saves your passwords in your browser only.
+- For Better UI Prefer Google Chrome to save your passwords.
 - [View Live](https://passwordmanager-hcj-codequillcrafts.netlify.app/)
 <!--
     Make a table signup take details from the user as username, phone number, email, password

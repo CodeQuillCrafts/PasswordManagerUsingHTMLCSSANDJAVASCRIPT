@@ -108,7 +108,7 @@ nav a {
 
 .viewer .search input[type="search"] {
     width: 60%;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
 }
 
 .viewer .search input[type="submit"] {
@@ -134,7 +134,7 @@ nav a {
 
 .passData>input {
     font-weight: bold;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
     border-radius: 10px;
     padding: 10px;
     width: 100%;

@@ -113,19 +113,29 @@ nav a {
 }
 
 .vieweraction {
-    height: 90%;
-    width: 90%;
     position: absolute;
     top: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    overflow: scroll;
+    overflow-y: auto;
+    width: 100%;
+    height: 90%;
 }
 
-.vieweraction div {
-    height: inherit;
+.passData {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    background-color: #3fd2bca9;
+}
+
+.passData>input {
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    color: green;
+    width: 99%;
+    text-overflow: ellipsis;
 }

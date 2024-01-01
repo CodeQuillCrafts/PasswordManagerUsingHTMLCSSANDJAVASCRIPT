@@ -89,7 +89,7 @@ nav a {
     top: 0;
     height: 10%;
     width: 100%;
-    background-color: #715650;
+    background-color: #ea8b8bdb;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -110,4 +110,22 @@ nav a {
 
 .viewer .search input[type="submit"] {
     width: 20%;
+}
+
+.vieweraction {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: scroll;
+}
+
+.vieweraction div {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
